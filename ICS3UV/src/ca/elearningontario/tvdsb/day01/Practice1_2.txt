@@ -1,0 +1,19 @@
+// File: Bugs2.java
+
+public class Bugs2 {
+
+   public static void main(String args[])
+
+      System.out.println("abc\ndef")
+
+      system.out.println("ghi");
+
+   }
+
+}
+
+[Fixed]
+
+Line 5: need { at the end -> public static void main(String args[]) {
+Line 7: need ; at the end -> System.out.println("abc/ndef");
+Line 9: first letter should be in capital -> System.out.println("ghi");

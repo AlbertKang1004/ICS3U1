@@ -1,0 +1,21 @@
+// File: Bugs3.java
+
+public class bugs3
+
+{
+
+   public static void main(String args[])
+
+   {
+
+      System.out.println("Bugs are frustrating. );
+
+   }
+
+}
+
+[Fixed]
+Line 3: Class' name should be the same with file's name -> public class Bugs3
+Line 11: need quotation mark(") at the end of the string -> System.out.println("Bugs are frustrating. ");
+
+
